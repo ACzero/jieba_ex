@@ -11,5 +11,5 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rustler = "0.22.0"
-jieba-rs = { version = "0.6", features = ["tfidf", "textrank"] }
+jieba-rs = { git = "https://github.com/ACzero/jieba-rs.git", branch = "test", features = ["tfidf", "textrank"] }
 lazy_static = "1.4.0"
